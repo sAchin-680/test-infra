@@ -284,10 +284,10 @@ lgtm:
 
 blockades:
 - repos:
-  - kubernetes/api
+  - kubernetes/apiextensions-apiserver
   blockregexps:
   - .*
-  explanation: "This repository is read-only. Please make changes in the canonical location under kubernetes/kubernetes/staging/src/k8s.io/api instead."
+  explanation: "We do not accept changes directly against this repository. Please see CONTRIBUTING.md for information on where and how to contribute instead."
 - repos:
   - kubernetes/kubernetes
   blockregexps:
